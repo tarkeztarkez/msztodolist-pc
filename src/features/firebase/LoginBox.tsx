@@ -22,7 +22,7 @@ export function LoginBox() {
       <div>
         <h2>Auth</h2>
         <label>
-          Login:
+          Email:
           <input type="text" value={loginname} onChange={handlelogin} />
         </label>
         <label>
