@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { auth } from "./app";
+import { Button } from "@material-ui/core";
 import firebase from "firebase";
 
 export function LoginBox() {
@@ -30,7 +31,7 @@ export function LoginBox() {
           <input type="password" value={password} onChange={handlepassword} />
         </label>
 
-        <button onClick={login}>Login</button>
+        <Button onClick={login}>Login</Button>
       </div>
     </div>
   );
